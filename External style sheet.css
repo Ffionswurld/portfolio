@@ -1,0 +1,97 @@
+
+
+
+body {font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+            background-color:#ffffff;}
+
+            .logo{
+                padding:5px;
+            padding-left:25%;}
+    
+            #standOut{font-size: 16pt;
+            padding-left:50px;
+            }
+
+            body {font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+            background-color:#CCCCFF; 
+            padding:5%;
+            margin-right:10%;
+            font-size :10px;}
+
+            
+            /*you can reference colors using hex code (#CCCCFF; OR (rgb) 204, 204, 255 )*/
+
+            h1{font-size:2em;
+            font-weight: 120px;} 
+            h2{font-size:1.5em;}
+
+            .dropbtn {
+                background-color: #000000;
+                color: white;
+                padding: 16px;
+                font-size: 16px;
+                border: none;
+                position:relative; left: 40px;
+              }
+              
+              .dropdown {
+                position: relative;
+                display: inline-block;
+              }
+              
+              .dropdown-content {
+                display: none;
+                position: absolute;
+                background-color: #f1f1f1;
+                min-width: 160px;
+                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                z-index: 1;
+              }
+              
+              .dropdown-content a {
+                color: black;
+                padding: 22px 12px;
+                text-decoration: none;
+                display: block;
+              }
+              
+              .dropdown-content a:hover {background-color: #ddd;}
+              
+              .dropdown:hover .dropdown-content {display: block;}
+              
+              .dropdown:hover .dropbtn {background-color: #dba2d6;}
+
+
+
+.container {background-color:blue;
+padding:20px;
+padding-top:5px; 
+margin:10px;
+}
+
+#imageRight{float:right;
+padding:10px;
+border-style:solid; 
+background-color: blueviolet;
+}
+
+#textleft{float:left;
+padding:2px;
+border-style:solid;
+background-color: #ffffff;}
+
+.flex-container{background-color:black; 
+display:flex;
+flex-direction:row;
+flex-wrap:wrap;
+margin-left:5%;
+margin-right:5%; 
+padding:10px; 
+justify-content: space-around ;
+overflow:auto;
+}
+
+#image {padding:10px; 
+    border-style:none;
+    margin:20px;
+    background-color:white;}
